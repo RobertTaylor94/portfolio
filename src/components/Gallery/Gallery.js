@@ -1,11 +1,11 @@
 import React from 'react';
 
-function Project() {
+function Gallery() {
     return (
         <div>
-            Project
+            Gallery
         </div>
     );
 }
 
-export default Project;
+export default Gallery;

@@ -1,4 +1,5 @@
 import React from "react";
+import './navtabs.css';
 import { NavLink } from "react-router-dom";
 
 function NavTabs() {
@@ -6,24 +7,35 @@ function NavTabs() {
     <ul>
         <li>
         <NavLink
-          to="/"
+          to="/portfolio"
           end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-            Home
+          Home
         </NavLink>
         </li>
         <li>
         <NavLink
-          to="contact"
+          to="/contact"
           end
           className={({ isActive }) =>
             isActive ? 'nav-link active' : 'nav-link'
           }
         >
-            Contact
+          Contact
+        </NavLink>
+        </li>
+        <li>
+        <NavLink
+          to="/gallery"
+          end
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
+        >
+          Gallery
         </NavLink>
         </li>
     </ul>
