@@ -46,6 +46,15 @@ function DrawerAppBar(props) {
             <ListItemText primary="Home" />
           </ListItemButton>
         </ListItem>
+        <ListItem key="projects" disablePadding>
+          <ListItemButton
+            component={Link}
+            to="/projects"
+            sx={{ textAlign: "center" }}
+          >
+            <ListItemText primary="Projects" />
+          </ListItemButton>
+        </ListItem>
         <ListItem key="contact" disablePadding>
           <ListItemButton
             component={Link}
@@ -105,6 +114,14 @@ function DrawerAppBar(props) {
           <Box sx={{ display: { xs: "none", sm: "block" } }}>
             <Button component={Link} to="/" key="home" sx={{ color: "#fff" }}>
               Home
+            </Button>
+            <Button
+              component={Link}
+              to="/projects"
+              key="projects"
+              sx={{ color: "#fff" }}
+            >
+              Projects
             </Button>
             <Button
               component={Link}
