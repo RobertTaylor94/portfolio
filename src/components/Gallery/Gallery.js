@@ -1,6 +1,6 @@
 import React from 'react';
 import images from '../../images.json'
-import { Box, ImageList, ImageListItem, ImageListItemBar, Container, useMediaQuery, Skeleton } from '@mui/material'
+import { Box, ImageList, ImageListItem, ImageListItemBar, Container, useMediaQuery } from '@mui/material'
 
 function Gallery(props) {
     const matches = useMediaQuery('(min-width:600px)');
