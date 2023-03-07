@@ -72,9 +72,9 @@ function DrawerAppBar(props) {
 
   return (
     //return appbar fixed across the top of all devices
-    <Box sx={{ display: "flex" }}>
+    <Box sx={{ display: "flex", paddingTop: "60px" }}>
       <CssBaseline />
-      <AppBar component="nav" position="sticky">
+      <AppBar component="nav" position="fixed">
         <Toolbar>
           <IconButton
             color="inherit"
