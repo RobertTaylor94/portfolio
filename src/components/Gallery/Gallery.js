@@ -3,7 +3,6 @@ import images from '../../images.json'
 import { Box, ImageList, ImageListItem, ImageListItemBar, Container, useMediaQuery, Skeleton } from '@mui/material'
 
 function Gallery(props) {
-    const { loading = false } = props;
     const matches = useMediaQuery('(min-width:600px)');
     return (
         <Container sx={{ overflowY: 'scroll', width: '70vw'}}>
