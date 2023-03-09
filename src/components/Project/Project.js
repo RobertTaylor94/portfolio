@@ -5,11 +5,11 @@ import { Paper, Button, Link, Typography, Box, Container } from "@mui/material";
 function Project(props) {
   return (
     <Paper sx={{ height: "60vh" }}>
-        {/* Display header and deescription for app using data from projects.json */}
-      <Typography variant="h2" align="center">
+      {/* Display header and deescription for app using data from projects.json */}
+      <Typography variant="h2" align="center" sx={{ margin: "10px" }}>
         {props.item.name}
       </Typography>
-      <Typography variant="body1" align="center">
+      <Typography variant="body1" align="center" sx={{ margin: "10px" }}>
         {props.item.desc}
       </Typography>
       <Box display="flex" justifyContent="center">
@@ -25,12 +25,14 @@ function Project(props) {
         </Typography>
       </Box>
 
-        {/* image of the current app/project */}
-        
+      {/* image of the current app/project */}
+      <Box display="flex" justifyContent="center">
+        <img src={process.env.PUBLIC_URL + props.item.img} alt={props.item.name + " screenshot"} style={{ height: 'auto' }} />
+      </Box>
 
-        {/* Centered buttons with links to github repo and deployed site for each project */}
+      {/* Centered buttons with links to github repo and deployed site for each project */}
       <Box
-    //   Uses a MUI Box to center the buttons and place them at the bottom of the container
+        //   Uses a MUI Box to center the buttons and place them at the bottom of the container
         display="flex"
         justifyContent="center"
         position="absolute"
