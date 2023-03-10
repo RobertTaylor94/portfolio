@@ -1,5 +1,5 @@
 import React from "react";
-import { Paper, Button, Link, Typography, Box } from "@mui/material";
+import { Box } from "@mui/material";
 import Carousel from "react-material-ui-carousel";
 import Project from "../Project/Project";
 import projectData from "../../projects.json";

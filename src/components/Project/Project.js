@@ -3,10 +3,8 @@ import "./project.css";
 import {
   Paper,
   Button,
-  Link,
   Typography,
   Box,
-  Container,
   Stack,
 } from "@mui/material";
 
