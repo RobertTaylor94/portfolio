@@ -5,34 +5,38 @@
     },
     {
         "img": "/images/thryva-task.png",
-        "title": "Thryva"
+        "title": "Thryv"
     },
     {
-        "img": "",
-        "title": "Thryva"
+        "img": "/images/addbook.png",
+        "title": "Unicorn Book Club"
     },
     {
-        "img": "",
-        "title": "Readme gen"
-    },
-    {
-        "img": "",
-        "title": "Retinentia"
-    },
-    {
-        "img": "",
-        "title": "Book Club"
-    },
-    {
-        "img": "",
+        "img": "/images/finalspace.png",
         "title": "Final Space Wiki"
     },
     {
-        "img": "",
+        "img": "/images/password.png",
+        "title": "Password Generator"
+    },
+    {
+        "img": "/images/bookclub.png",
+        "title": "Unicorn Book Club"
+    },
+    {
+        "img": "/images/thryva-splash.png",
+        "title": "Thryv"
+    },
+    {
+        "img": "/images/quiz.png",
         "title": "Code Quiz"
     },
     {
-        "img": "",
-        "title": "Vals Revenge"
+        "img": "/images/schedule.png",
+        "title": "Daily Planner"
+    },
+    {
+        "img": "/images/valsrevenge.png",
+        "title": "Val's Revenge"
     }
 ]
