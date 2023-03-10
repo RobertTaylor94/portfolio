@@ -11,12 +11,12 @@ import {
 function Project(props) {
   return (
     <Paper sx={{ height: "100%" }}>
-      <Stack display="flex" spacing={1} height="100%">
+      <Stack display="flex" spacing={1} height="100%" alignItems="center">
         {/* Display header and description for app using data from projects.json */}
         <Typography variant="h2" align="center" sx={{}}>
           {props.item.name}
         </Typography>
-        <Typography variant="body1" align="center" sx={{}}>
+        <Typography variant="body1" align="center" maxWidth="60vw" sx={{}}>
           {props.item.desc}
         </Typography>
         <Box display="flex" justifyContent="center">
