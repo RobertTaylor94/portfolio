@@ -45,10 +45,10 @@ function Contact() {
             Links
           </Typography>
           <Typography gutterBottom>
-            <a target="_blank" href="https://github.com/RobertTaylor94">GitHub</a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/RobertTaylor94">GitHub</a>
           </Typography>
           <Typography gutterBottom>
-            <a target="_blank" href="https://www.linkedin.com/in/robert-taylor-7b2a0325b/">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/robert-taylor-7b2a0325b/">
               LinkedIn
             </a>
           </Typography>
