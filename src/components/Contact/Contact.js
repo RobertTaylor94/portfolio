@@ -25,7 +25,7 @@ function Contact() {
           rows={4}
           margin="normal"
         />
-        <Button variant="contained" color="primary" fullWidth>
+        <Button variant="contained" color="primary" fullWidth type="submit">
           Submit
         </Button>
       </form>
