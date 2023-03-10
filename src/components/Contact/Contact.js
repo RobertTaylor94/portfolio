@@ -1,11 +1,5 @@
 import React from "react";
-import {
-  Container,
-  Typography,
-  TextField,
-  Button,
-  Grid
-} from "@mui/material";
+import { Container, Typography, TextField, Button, Grid } from "@mui/material";
 
 function Contact() {
   return (
@@ -13,13 +7,19 @@ function Contact() {
       <Typography variant="h4" align="center" marginTop={3} marginBottom={3}>
         Contact Me
       </Typography>
-      <form method="POST" name="contactForm" netlify netlify-honeypot="bot-field">
+      <form
+        method="POST"
+        name="contactForm"
+        netlify
+        netlify-honeypot="bot-field"
+      >
         <input type="hidden" name="form-name" value="contactForm" />
-        <TextField id="name" label="Name" fullWidth margin="normal" />
-        <TextField id="email" label="Email" fullWidth margin="normal" />
+        <TextField id="name" label="Name" fullWidth margin="normal" name="name" />
+        <TextField id="email" label="Email" fullWidth margin="normal" name="email" />
         <TextField
           id="message"
           label="Message"
+          name="message"
           fullWidth
           multiline
           rows={4}
