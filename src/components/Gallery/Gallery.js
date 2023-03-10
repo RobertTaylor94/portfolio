@@ -15,7 +15,7 @@ function Gallery(props) {
                             style={{width: '100%', height: '300px'}}
                         />
                         <ImageListItemBar
-                        sx={{ backgroundColor: 'blue', color: 'white', paddingLeft: '10px', paddingTop: '5px', '& .css-dasnyc-MuiImageListItemBar-title': {
+                        sx={{ backgroundColor: 'gray', color: 'white', paddingLeft: '10px', paddingTop: '5px', '& .css-dasnyc-MuiImageListItemBar-title': {
                             fontSize: '1.5em'
                         }}}
                             position='below'
