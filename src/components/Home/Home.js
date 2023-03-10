@@ -6,9 +6,12 @@ import {
   Grid,
   Card,
   CardContent,
+  Chip
 } from "@mui/material";
+import HtmlIcon from '@mui/icons-material/Html';
+import CssIcon from '@mui/icons-material/Css';
+import JavascriptIcon from '@mui/icons-material/Javascript';
 import "./home.css";
-// import banner from '/images/banner.jpeg';
 
 function Home() {
   return (
@@ -75,23 +78,17 @@ function Home() {
               <Typography gutterBottom variant="h4">
                 Technologies
               </Typography>
-              <Typography variant="body" color="text.primary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
-              </Typography>
-            </CardContent>
-          </Card>
-        </Grid>
-        <Grid item xs={12} md={4} lg={3}>
-          <Card>
-            <CardContent>
-              <Typography gutterBottom variant="h4">
-                Technologies
-              </Typography>
-              <Typography variant="body" color="text.primary">
-                Lizards are a widespread group of squamate reptiles, with over
-                6,000 species, ranging across all continents except Antarctica
-              </Typography>
+              <Chip label="HTML" color="secondary" icon={<HtmlIcon />} sx={{ margin: "5px" }} />
+              <Chip label="CSS" color="secondary" icon={<CssIcon />} sx={{ margin: "5px" }}/>
+              <Chip label="JavaScript" color="secondary" icon={<JavascriptIcon />} sx={{ margin: "5px" }}/>
+              <Chip label="Node.Js" color="secondary"sx={{ margin: "5px" }} />
+              <Chip label="NPM" color="secondary" sx={{ margin: "5px" }} />
+              <Chip label="Swift" color="secondary" sx={{ margin: "5px" }} />
+              <Chip label="SwiftUI" color="secondary" sx={{ margin: "5px" }} />
+              <Chip label="React" color="secondary" sx={{ margin: "5px" }} />
+              <Chip label="RealmDB" color="secondary" sx={{ margin: "5px" }} />
+              <Chip label="Bootstrap" color="secondary" sx={{ margin: "5px" }} />
+              <Chip label="Material UI" color="secondary" sx={{ margin: "5px" }} />
             </CardContent>
           </Card>
         </Grid>
