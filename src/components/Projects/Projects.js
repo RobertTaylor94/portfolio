@@ -7,7 +7,7 @@ import projectData from "../../projects.json";
 function Projects() {
   return (
     <Box sx={{ height: "70vh" }}>
-      <Carousel animation="slide" height="60vh" autoPlay="false" interval={10000} navButtonsAlwaysVisible="true">
+      <Carousel animation="slide" height="80vh" interval={100000000} navButtonsAlwaysVisible="true">
         {projectData.map((item, i) => (
           <Project key={i} item={item} />
         ))}
