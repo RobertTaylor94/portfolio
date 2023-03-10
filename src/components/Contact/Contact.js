@@ -36,24 +36,24 @@ function Contact() {
           </Typography>
           <Typography gutterBottom>
             Email:{" "}
-            <a href="mailto:your.email@example.com">your.email@example.com</a>
+            <a href="mailto:rjt903@gmail.com">rjt903@gmail.com</a>
           </Typography>
-          <Typography gutterBottom>Phone: +1 (555) 555-5555</Typography>
+          <Typography gutterBottom>Phone: +44 7543 523 834</Typography>
         </Grid>
         <Grid item xs={12} sm={6}>
           <Typography variant="h6" gutterBottom>
             Links
           </Typography>
           <Typography gutterBottom>
-            <a href="https://github.com/your-github-username">GitHub</a>
+            <a target="_blank" href="https://github.com/RobertTaylor94">GitHub</a>
           </Typography>
           <Typography gutterBottom>
-            <a href="https://www.linkedin.com/in/your-linkedin-username/">
+            <a target="_blank" href="https://www.linkedin.com/in/robert-taylor-7b2a0325b/">
               LinkedIn
             </a>
           </Typography>
           <Typography gutterBottom>
-            <a href="/path/to/your/resume.pdf" download>
+            <a href={process.env.PUBLIC_URL + "resume.pdf"} download>
               Download Resume
             </a>
           </Typography>
