@@ -9,58 +9,58 @@
     },
     {
         "name": "Unicorn Book Club",
-        "repoLink": "",
-        "deployedLink": "",
-        "img": "",
-        "desc": "This a a long description of an app that I have made and I am very proud of",
+        "repoLink": "https://github.com/RobertTaylor94/Book-Club-Tracker",
+        "deployedLink": "https://github.com/RobertTaylor94/Book-Club-Tracker",
+        "img": "/images/bookclub.png",
+        "desc": "The first app I published to the App Store! I made this app after my friends and I started a book club. It allows users to save books to a local library after searching the Google Books API. users can then see a description of the book and track their reading progress.",
         "tech": ": Swift, SwiftUI, RealmDB"
     },
     {
         "name": "Thryva",
-        "repoLink": "",
-        "deployedLink": "",
-        "img": "",
-        "desc": "This a a long description of an app that I have made and I am very proud of",
-        "tech": ": Swift, Storyboards"
+        "repoLink": "https://github.com/RobertTaylor94/Thryva",
+        "deployedLink": "https://roberttaylor94.github.io/Thryva/",
+        "img": "/images/thryv-full.png",
+        "desc": "The first group project of the bootcamp saw three of us create a web app focused on improving mindfullness and encouraging users to focus on one critical task for the day. We started to get familiar with git branching and agile methodology during this project.",
+        "tech": ": HTML, CSS, JavaScript, jQuery, bootstrap"
     },
     {
         "name": "Password Generator",
-        "repoLink": "",
-        "deployedLink": "",
-        "img": "",
-        "desc": "This a a long description of an app that I have made and I am very proud of",
-        "tech": ": Swift, Storyboards"
+        "repoLink": "https://github.com/RobertTaylor94/password-generator",
+        "deployedLink": "https://roberttaylor94.github.io/password-generator/",
+        "img": "/images/password.png",
+        "desc": "This web app takes a number of user prompts to generate a password of their desired length. The user can choose whether to use special characters and numbers",
+        "tech": ": HTML, CSS, JavaScript"
     },
     {
         "name": "Final Space Wiki",
-        "repoLink": "",
-        "deployedLink": "",
-        "img": "",
-        "desc": "This a a long description of an app that I have made and I am very proud of",
-        "tech": ": Swift, Storyboards"
+        "repoLink": "https://github.com/RobertTaylor94/Final-Space-Wiki",
+        "deployedLink": "https://github.com/RobertTaylor94/Final-Space-Wiki",
+        "img": "/images/finalspace.png",
+        "desc": "A wiki app for the TV show Final Space.",
+        "tech": ": Swift, Storyboards, UIKit"
     },
     {
         "name": "Code Quiz",
-        "repoLink": "",
-        "deployedLink": "",
-        "img": "",
-        "desc": "This a a long description of an app that I have made and I am very proud of",
-        "tech": ": Swift, Storyboards"
+        "repoLink": "https://github.com/RobertTaylor94/Code-Quiz",
+        "deployedLink": "https://roberttaylor94.github.io/Code-Quiz/",
+        "img": "/images/quiz.png",
+        "desc": "This small quiz was my first foray into using local storage in the browser. Users are penalised for gettign wuestions wrong (by reducing their remaining time) and scores are saved on a seperate High Score page.",
+        "tech": ": HTML, CSS, JavaScript, "
     },
     {
         "name": "Weather Dashboard",
-        "repoLink": "",
-        "deployedLink": "",
-        "img": "",
-        "desc": "This a a long description of an app that I have made and I am very proud of",
-        "tech": ": Swift, Storyboards"
+        "repoLink": "https://github.com/RobertTaylor94/Weather-Dashboard",
+        "deployedLink": "https://roberttaylor94.github.io/Weather-Dashboard/",
+        "img": "/images/weather.png",
+        "desc": "Week 8 of the bootcamp introduced us to Server API. This weather dashboard uses the Open weather API to pull a five day forecast for a searched location. LocalStorage is also used to save the search history and quickly retireve past forecasts.",
+        "tech": ": HTML, CSS, JavaScript, AJAX, jQuery"
     },
     {
         "name": "'Meet the Team' HTML Generator",
-        "repoLink": "",
+        "repoLink": "https://github.com/RobertTaylor94/Team-Profile-Generator",
         "deployedLink": "",
-        "img": "",
-        "desc": "This a a long description of an app that I have made and I am very proud of",
-        "tech": ": Swift, Storyboards"
+        "img": "/images/team-profile-gen.gif",
+        "desc": "A node package that dynamically generates a HTML page for a work team. The Inquirer package is used to get user input about members of the team before generating the styled HTML page in the output folder.",
+        "tech": ": JavaScript, Node.js, npm"
     }
 ]
